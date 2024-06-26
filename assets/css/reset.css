@@ -8,8 +8,14 @@ html {
     font-family: "Montserrat", sans-serif;
 }
 
+
+main {
+    overflow-y:hidden;
+}
+
 img {
     max-width:100%;
+    display:block;
 }
 
 ul {

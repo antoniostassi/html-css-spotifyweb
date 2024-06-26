@@ -2,10 +2,26 @@
 @media screen and (min-width:1101px) {
     .desktop-1-6 {
         width:calc((100% / 6) - 20px);
-        margin:0 10px;
+        margin:0 10px 25px;
     }
 }
 
+/* Laptop */
 @media screen and (max-width:1100px) {
+
+    .laptop-1-4 {
+        width:calc((100% / 4) - 20px);
+        margin:0 10px 25px;
+    }
+
+}
+
+/* Tablet */
+@media screen and (max-width:800px) {
+
+    .tablet-1-2 {
+        width:calc((100% / 2) - 20px);
+        margin:0 10px 25px;
+    }
 
 }

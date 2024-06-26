@@ -3,7 +3,7 @@
 
 #browser-application {
     width:100%;
-    height:calc(100vh - 112px );
+    height:calc(100vh - 100px );
 }
 
 /* Nav Bar */
@@ -121,12 +121,12 @@
 /* Media Player */
 /* Overview */
 #media-player {
-    height:112px;
+    height:100px;
     color:white;
 }
 
 #media-player > .overview {
-    padding:10px;
+    padding:0 15px;
     align-items:center;
 }
 
@@ -143,7 +143,7 @@
 }
 
 #media-player > .overview > .song-description > p { 
-    padding-top:10px;
+    /* padding-top:10px; */
     font-size:0.8rem;
 }
 
@@ -160,7 +160,7 @@
 /* Player */
 
 #media-player > .player > .interactions {
-    padding:10px;
+    padding:5px;
     justify-content:center;
     align-items:flex-end;
 }
