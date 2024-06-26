@@ -55,3 +55,11 @@
 .sticky {
     position:sticky;
 }
+
+.fixed {
+    position:fixed;
+}
+
+.relative {
+    position:relative;
+}
