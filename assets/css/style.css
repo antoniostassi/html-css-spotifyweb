@@ -4,30 +4,97 @@
 #browser-application {
     width:100%;
     height:calc(100vh - 100px );
+    margin:auto;
 }
 
 /* Nav Bar */
 #browser-application > #nav-bar {
-    width:10%;
+    width:15%;
     height:100%;
+    padding:20px 0;
+}
+
+#nav-bar > .container {
+    padding-right:10px;
+}
+
+#nav-bar > .container > .big-logo {
+    padding: 0 20px;
+    max-width:200px;
+}
+
+#nav-bar > .container > .small-logo {
+    display:none;
+}
+
+#nav-bar > .container > .buttons {
+    padding-top:20px;
+}
+
+#nav-bar > .container > .buttons > div {
+    padding-left:20px;
+}
+
+#nav-bar > .container > .buttons > div > a {
+    color:var(--color-text-grey);
+    text-decoration:none;
+}
+
+#nav-bar > .container > .buttons > div > a > i {
+    font-size:2rem;
+    margin:10px 0;
+}
+
+#nav-bar > .container > .buttons > div:nth-of-type(2) > a > i {
+    margin-right:5px;
+}
+
+#nav-bar > .container > .buttons > div > a > .button-desc {
+    margin:0 10px;
+    font-size:1rem;
+    vertical-align: middle;
+}
+
+#nav-bar > .container > .buttons > div:first-of-type > a {
+    color:white;
+}
+
+#nav-bar > .container > .buttons > div:first-of-type,
+#nav-bar > .container > .buttons > div:hover {
+    border-left:3px solid #ADFF2F;
+}
+
+#nav-bar > .container > .buttons > div:hover > a {
+    color:white;
+}
+
+#nav-bar > .container > .buttons > div > a:focus {
+    color:white;
+}
+
+#nav-bar > .container > .playlist {
+    padding: 0 20px;
+    color: white;
+    margin: 20px 0;
+    font-size:1.15rem;
 }
 
 /* Media Browser */
 #browser-application > #media-browser {
-    width:90%;
+    width:85%;
     height:100%;
 }
 
 /* Sticky Upgrade Section */
 #media-browser > .browsing-list > .upgrade-bar {
     height:100px;
-    width:100%;
+    width:85%;
     justify-content: flex-end;
     color:white;
     align-items:center;
     background-color: rgba(0, 0, 0, 0.5);
     top:0;
-    left:0;
+    right:0;
 }
 
 #media-browser > .browsing-list > .upgrade-bar > .upgrade-button {
@@ -126,7 +193,7 @@
 }
 
 .browsing-list > .playlists-section .my-row > .my-col:hover > .img-container > img {
-    filter:blur(3px);
+    filter:blur(2px);
     cursor:pointer;
 }
 .browsing-list > .playlists-section .my-row > .my-col > h3 {

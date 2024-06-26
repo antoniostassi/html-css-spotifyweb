@@ -6,6 +6,18 @@
         width:calc((100% / 10) - 20px);
         margin:0 10px 25px;
     }
+
+    #browser-application > #nav-bar {
+        width:10%;
+    }
+
+    #browser-application > #media-browser {
+        width:90%;
+    }
+
+    #browser-application > #media-browser > .browsing-list.relative > .upgrade-bar {
+        width:90%;
+    }
 }
 
 /* Human Desktops */
@@ -13,6 +25,18 @@
     .desktop-1-6 {
         width:calc((100% / 6) - 20px);
         margin:0 10px 25px;
+    }
+
+    #browser-application > #nav-bar {
+        width:15%;
+    }
+
+    #browser-application > #media-browser {
+        width:85%;
+    }
+
+    #browser-application > #media-browser > .browsing-list.relative > .upgrade-bar {
+        width:85%;
     }
 }
 
@@ -24,10 +48,22 @@
         margin:0 10px 25px;
     }
 
+    #browser-application > #nav-bar {
+        width:20%;
+    }
+
+    #browser-application > #media-browser {
+        width:80%;
+    }
+
+    #browser-application > #media-browser > .browsing-list.relative > .upgrade-bar {
+        width:80%;
+    }
+
 }
 
 /* Tablet */
-@media screen and (max-width:737px) {
+@media screen and (max-width:768px) {
 
     .tablet-1-2 {
         width:calc((100% / 2) - 20px);
