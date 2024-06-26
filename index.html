@@ -7,8 +7,8 @@
         <title>Spotify</title>
 
         <!-- Css Links -->
-        <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/utility.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
         
@@ -26,14 +26,22 @@
         <!-- Main Web Application -->
         <main>
             
-            <!-- Nav Bar | Personal Playlists and Research Buttons | -->
-            <section id="nav-bar"></section>
+            <div id="browser-application flex">
+                
+                <!-- Nav Bar | Personal Playlists and Research Buttons | -->
+                <div id="nav-bar" class="black-bg"></div>
 
-            <!-- Media Browser | Playlists and Created Playlists | -->
-            <section id="media-browser"></section>
-            
+                <!-- Media Browser | Playlists and Created Playlists | -->
+                <div id="media-browser" class="dark-blue-bg"></div>
+
+            </div>
+
             <!-- Media Player | Overview - Player - Audio Settings | -->
-            <section id="media-player"></section>
+            <div id="media-player" class="grey-bg flex space-between">
+                <div class="overview"></div>
+                <div class="player"></div>
+                <div class="audio-settings"></div>
+            </div>
 
         </main>
 

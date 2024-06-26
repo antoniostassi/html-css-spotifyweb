@@ -1,0 +1,23 @@
+
+/* Colors */
+.dark-blue-bg {
+    background-color: #141922;
+}
+
+.grey-bg {
+    background-color: #282828;
+}
+
+.black-bg {
+    background-color: #000000;
+}
+
+/* General */
+
+.flex {
+    display:flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
