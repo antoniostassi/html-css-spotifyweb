@@ -8,6 +8,10 @@ html {
     font-family: "Montserrat", sans-serif;
 }
 
+img {
+    max-width:100%;
+}
+
 ul {
     list-style-type: none;
     padding:0;
@@ -23,8 +27,9 @@ ul * > a {
     text-decoration:0;
     color:var(--color-text-grey);
 }
+
 /* Debug */
 
-* {
+/* * {
     outline:1px dashed red;
-}
+} */

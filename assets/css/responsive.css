@@ -1,0 +1,11 @@
+/* Desktop Section */
+@media screen and (min-width:1101px) {
+    .desktop-1-6 {
+        width:calc((100% / 6) - 10px);
+        min-height:100px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+
+}

@@ -8,13 +8,13 @@
 
 /* Nav Bar */
 #browser-application > #nav-bar {
-    width:15%;
+    width:20%;
     height:100%;
 }
 
 /* Media Browser */
 #browser-application > #media-browser {
-    width:85%;
+    width:80%;
     height:100%;
 }
 
@@ -53,8 +53,8 @@
     justify-content: center;
 }
 
-#media-browser > .browsing-list > .navigator.flex * {
-    margin:0 10px;
+#media-browser > .browsing-list > .navigator.flex > li {
+    padding:10px 10px;
 }
 
 #media-browser > .browsing-list > .navigator.flex * > a {
@@ -81,6 +81,25 @@
     outline:1px dashed purple;
     margin-bottom:20px;
 }
+
+.browsing-list .my-col-section > h2 {
+    margin:20px 0;
+}
+
+.browsing-list > .playlists-section .my-row.space-between {
+    text-align: center;
+}
+
+.browsing-list > .playlists-section .my-row.space-between > .my-col > h3 {
+    padding:10px 0;
+}
+
+.browsing-list > .playlists-section .my-row.space-between > .my-col > p {
+    font-size:0.9rem;
+    color:var(--color-text-grey);
+    font-weight:600;
+}
+
 
 /* Media Player */
 /* Overview */
@@ -154,6 +173,10 @@
 } 
 
 /* Audio Settings */
+
+#media-player > .col-1-3 {
+    max-width:calc(100% / 3);
+}
 
 #media-player > .audio-settings {
     align-items:center;
