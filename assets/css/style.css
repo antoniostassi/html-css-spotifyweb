@@ -47,6 +47,8 @@
     padding:20px;
     color:white;
     margin:auto;
+    overflow-y:scroll;
+    scrollbar-width:none;
 }
 
 #media-browser > .browsing-list > .navigator.flex {
@@ -78,7 +80,6 @@
 #media-browser > .browsing-list > .playlists-section {
     max-height:calc(100% - 30px);
     width:100%;
-    outline:1px dashed purple;
     margin-bottom:20px;
 }
 
@@ -86,7 +87,7 @@
     margin:20px 0;
 }
 
-.browsing-list > .playlists-section .my-row {
+.browsing-list > .playlists-section .my-row .my-row {
     text-align: center;
 }
 
