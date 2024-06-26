@@ -86,15 +86,15 @@
     margin:20px 0;
 }
 
-.browsing-list > .playlists-section .my-row.space-between {
+.browsing-list > .playlists-section .my-row {
     text-align: center;
 }
 
-.browsing-list > .playlists-section .my-row.space-between > .my-col > h3 {
+.browsing-list > .playlists-section .my-row > .my-col > h3 {
     padding:10px 0;
 }
 
-.browsing-list > .playlists-section .my-row.space-between > .my-col > p {
+.browsing-list > .playlists-section .my-row > .my-col > p {
     font-size:0.9rem;
     color:var(--color-text-grey);
     font-weight:600;
