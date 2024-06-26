@@ -8,8 +8,23 @@ html {
     font-family: "Montserrat", sans-serif;
 }
 
+ul {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+ul * {
+    margin:0;
+    padding:0;
+}
+
+ul * > a {
+    text-decoration:0;
+    color:var(--color-text-grey);
+}
 /* Debug */
-/* 
+
 * {
     outline:1px dashed red;
-} */
+}

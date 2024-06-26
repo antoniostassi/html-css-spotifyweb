@@ -3,32 +3,89 @@
 
 #browser-application {
     width:100%;
-    height:calc(100vh - 110px );
+    height:calc(100vh - 112px );
 }
 
+/* Nav Bar */
 #browser-application > #nav-bar {
     width:15%;
     height:100%;
-
 }
 
+/* Media Browser */
 #browser-application > #media-browser {
     width:85%;
     height:100%;
-    outline:1px solid red;
 }
 
+/* Sticky Upgrade Section */
 #media-browser > .upgrade-bar {
     height:100px;
     width:100%;
-    background-color:rgba(0,0,0,0.3);
+    background-color:rgba(0,0,0,0.5);
+    justify-content: flex-end;
+    color:white;
+    align-items:center;
+}
+
+#media-browser > .upgrade-bar > .upgrade-button {
+    padding:10px 40px;
+    border-radius:20px;
+    border:1px solid white;
+    margin-right:15px;
+    transition: transform 1s;
+}
+
+#media-browser > .upgrade-bar > .upgrade-button:hover {
+    cursor:pointer;
+    transform: scale(1.1, 1.1);
+}
+
+/* Music Browsing */
+#media-browser > .browsing-list {
+    height:calc(100% - 100px);
+    padding:20px;
+    color:white;
+    margin:auto;
+}
+
+#media-browser > .browsing-list > .navigator.flex {
+    justify-content: center;
+}
+
+#media-browser > .browsing-list > .navigator.flex * {
+    margin:0 10px;
+}
+
+#media-browser > .browsing-list > .navigator.flex * > a {
+    font-weight:bold;
+    font-size:0.8rem;
+}
+
+#media-browser > .browsing-list > .navigator.flex * > .underline-li {
+    width:40%;
+    height:2px;
+    background-color: #ADFF2F;
+    margin:4px auto;
+}
+
+#media-browser > .browsing-list > .navigator.flex > li:not(:first-of-type) > .underline-li{
+    display:none;
+}
+
+/* Playlists Section */
+
+#media-browser > .browsing-list > .playlists-section {
+    max-height:calc(100% - 30px);
+    width:100%;
+    outline:1px dashed purple;
+    margin-bottom:20px;
 }
 
 /* Media Player */
 /* Overview */
 #media-player {
-    min-height:100px;
-    max-height:120px;
+    height:112px;
     color:white;
 }
 
