@@ -25,3 +25,20 @@
 .space-between {
     justify-content: space-between;
 }
+
+.style-bar {
+    height:5px;
+    border-radius:15px;
+    background-color:#5A5A5A;
+}
+
+.style-time-bar {
+    background-color: #C1C1C1;
+    height:100%;
+    width:15%;
+    border-radius:15px;
+}
+
+.big {
+    font-size: 2rem;
+}
