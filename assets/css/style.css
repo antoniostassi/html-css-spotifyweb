@@ -1,11 +1,34 @@
 
 /* Main */
 
-/* Media Player */
+#browser-application {
+    width:100%;
+    height:calc(100vh - 110px );
+}
 
+#browser-application > #nav-bar {
+    width:15%;
+    height:100%;
+
+}
+
+#browser-application > #media-browser {
+    width:85%;
+    height:100%;
+    outline:1px solid red;
+}
+
+#media-browser > .upgrade-bar {
+    height:100px;
+    width:100%;
+    background-color:rgba(0,0,0,0.3);
+}
+
+/* Media Player */
 /* Overview */
 #media-player {
-    min-height: 100px;
+    min-height:100px;
+    max-height:120px;
     color:white;
 }
 
@@ -15,8 +38,8 @@
 }
 
 #media-player > .overview > .square {
-    width:50px;
-    height:50px;
+    width:60px;
+    height:60px;
     margin-right:10px;
     background-image: url("../img/player_left.jpg");
     background-size:cover;
@@ -73,7 +96,7 @@
     background-color:#5A5A5A;
 } 
 
-/* Right Section */
+/* Audio Settings */
 
 #media-player > .audio-settings {
     align-items:center;
