@@ -52,14 +52,6 @@
     font-size: 2rem;
 }
 
-.sticky {
-    position:sticky;
-}
-
 .fixed {
     position:fixed;
-}
-
-.relative {
-    position:relative;
 }

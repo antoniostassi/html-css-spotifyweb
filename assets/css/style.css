@@ -107,6 +107,28 @@
 
 }
 
+.browsing-list > .playlists-section .my-row > .my-col > .img-container {
+    position:relative;
+}
+
+.browsing-list > .playlists-section .my-row > .my-col > .img-container > .play-button {
+    display:none;
+    font-size:3.5rem;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.browsing-list > .playlists-section .my-row > .my-col:hover > .img-container > .play-button {
+    display:block;
+    cursor:pointer;
+}
+
+.browsing-list > .playlists-section .my-row > .my-col:hover > .img-container > img {
+    filter:blur(3px);
+    cursor:pointer;
+}
 .browsing-list > .playlists-section .my-row > .my-col > h3 {
     padding:10px 0;
 }

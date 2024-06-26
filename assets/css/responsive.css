@@ -1,5 +1,15 @@
 /* Desktop Section */
-@media screen and (min-width:1101px) {
+
+/* SubHuman Desktops */
+@media screen and (max-width:3500px) {
+    .desktop-1-6 {
+        width:calc((100% / 10) - 20px);
+        margin:0 10px 25px;
+    }
+}
+
+/* Human Desktops */
+@media screen and (max-width:2148px) {
     .desktop-1-6 {
         width:calc((100% / 6) - 20px);
         margin:0 10px 25px;
@@ -17,7 +27,7 @@
 }
 
 /* Tablet */
-@media screen and (max-width:800px) {
+@media screen and (max-width:737px) {
 
     .tablet-1-2 {
         width:calc((100% / 2) - 20px);
