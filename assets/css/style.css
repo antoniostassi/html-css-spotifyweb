@@ -3,7 +3,7 @@
 
 #browser-application {
     width:100%;
-    height:calc(100vh - 100px );
+    height:calc(100vh - var(--media-player-height) );
     margin:auto;
 }
 
@@ -211,8 +211,40 @@
 /* Media Player */
 /* Overview */
 #media-player {
-    height:100px;
+    height:var(--media-player-height);
     color:white;
+}
+
+#media-player > * {
+    border: 1px solid black;
+    padding: 0 5px;
+}
+
+#media-player > .music-desc > .desc {
+    padding:0 10px;
+}
+
+#media-player > .music-desc {
+    vertical-align:middle;
+    align-items:center;
+}
+
+#media-player > .music-desc.flex > .desc > p {
+    font-size:0.7rem;
+    color:var(--color-text-grey);
+    font-weight:bold;
+}
+
+.music-desc > .current-music {
+    width:45px;
+    height:45px;
+    background-image:url("../img/einaudi.jpeg");
+    background-size:cover;
+    background-position:center;
+}
+
+.music-desc > .icons.flex > i {
+    padding:5px;
 }
 
 
