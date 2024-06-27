@@ -33,4 +33,26 @@
         margin:0 10px 25px;
     }
 
+    :root {
+        --nav-bar-width:80px;
+    }
+
+    #nav-bar > .container > .big-logo {
+        display:none;
+    }
+
+    #nav-bar > .container > .small-logo {
+        display:block;
+        width:40px;
+        margin:0 20px;
+    }
+
+    #nav-bar > .container > .buttons > div > a > .button-desc {
+        display:none;
+    }
+
+    #nav-bar > .container > .playlist {
+        display:none;
+    }
+
 }
