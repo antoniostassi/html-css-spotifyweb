@@ -246,6 +246,8 @@
 #media-player {
     height:var(--media-player-height);
     color:white;
+    z-index: 1;
+    position:relative;
 }
 
 #media-player > * {
