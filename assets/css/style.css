@@ -9,7 +9,7 @@
 
 /* Nav Bar */
 #browser-application > #nav-bar {
-    width:15%;
+    width:var(--nav-bar-width);
     height:100%;
     padding:20px 0;
 }
@@ -81,20 +81,21 @@
 
 /* Media Browser */
 #browser-application > #media-browser {
-    width:85%;
+    width:calc(100% - var(--nav-bar-width));
     height:100%;
 }
 
 /* Sticky Upgrade Section */
 #media-browser > .browsing-list > .upgrade-bar {
     height:100px;
-    width:85%;
+    width:calc(100% - var(--nav-bar-width));
     justify-content: flex-end;
     color:white;
     align-items:center;
     background-color: rgba(0, 0, 0, 0.5);
     top:0;
     right:0;
+    z-index: 1;
 }
 
 #media-browser > .browsing-list > .upgrade-bar > .upgrade-button {
@@ -214,89 +215,6 @@
     color:white;
 }
 
-#media-player > .overview {
-    padding:0 15px;
-    align-items:center;
-}
-
-#media-player > .overview > .square {
-    width:60px;
-    height:60px;
-    margin-right:10px;
-    background-image: url("https://cdns-images.dzcdn.net/images/cover/621c706e3416c6c52671ab7fe11878f6/350x350.jpg");
-    background-size:cover;
-}
-
-#media-player > .overview > .song-description {
-    margin-right:15px;
-}
-
-#media-player > .overview > .song-description > p { 
-    /* padding-top:10px; */
-    font-size:0.8rem;
-}
-
-#media-player > .overview > .song-description > p > span {
-    font-size:0.7rem;
-    color:var(--color-grey);
-}
-
-#media-player > .overview.flex > .interactions > i {
-    padding:0 10px;
-    color:var(--color-grey);
-}
-
-/* Player */
-
-#media-player > .player > .interactions {
-    padding:5px;
-    justify-content:center;
-    align-items:flex-end;
-}
-
-#media-player > .player > .interactions > i:not(.big) {
-    font-size:1.2rem;
-}
-
-#media-player > .player > .interactions > i {
-    padding:10px;
-    margin:0 10px;
-}
-
-#media-player > .player > .time.flex > .time-current,
-#media-player > .player > .time.flex > .time-left {
-    padding-top:5px;
-    font-size:0.8rem;
-    padding-bottom:20px;
-}
-
-#media-player > .player > .time.flex > .bar {
-    width:500px;
-    height:5px;
-    border-radius:15px;
-    margin:10px 20px;
-    background-color:#5A5A5A;
-} 
-
-/* Audio Settings */
-
-#media-player > .col-1-3 {
-    max-width:calc(100% / 3);
-}
-
-#media-player > .audio-settings {
-    align-items:center;
-    color:white;
-}
-
-#media-player > .audio-settings > i {
-    padding:10px;
-}
-
-#media-player > .audio-settings > .bar {
-    width:200px;
-    margin:0 8px;
-}
 
 
 

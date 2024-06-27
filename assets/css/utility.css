@@ -15,6 +15,7 @@
 :root {
     --color-grey: #838383;
     --color-text-grey:#797C80;
+    --nav-bar-width:250px;
 }
 
 /* General */
