@@ -12,7 +12,6 @@
     width:var(--nav-bar-width);
     height:100%;
     padding:20px 0;
-    border:2px solid white;
 }
 
 #nav-bar > .container {
@@ -87,7 +86,6 @@
 
 .playlist > .playlist-container {
     max-height:100%;
-    border:1px solid white;
     overflow:hidden;
 }
 
@@ -134,9 +132,9 @@
 #media-browser > .browsing-list > .upgrade-bar > .upgrade-button {
     padding:10px 40px;
     border-radius:20px;
-    border:1px solid white;
     margin-right:15px;
     transition: transform 1s;
+    border:1px solid white;
 }
 
 #media-browser > .browsing-list > .upgrade-bar > .upgrade-button:hover {
@@ -251,7 +249,6 @@
 }
 
 #media-player > * {
-    border: 1px solid black;
     padding: 0 5px;
 }
 

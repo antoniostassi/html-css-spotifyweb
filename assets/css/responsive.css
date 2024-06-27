@@ -56,3 +56,23 @@
     }
 
 }
+
+@media screen and (max-width:500px) {
+    #media-player > .music-volume.flex {
+        display:none;
+    }
+
+    #media-player {
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #media-player > .music-desc {
+        width:200px;
+        margin-right:5px;
+    }
+
+    #media-player > .music-desc > .desc {
+        padding-right:0;
+    }
+}
