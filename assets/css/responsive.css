@@ -33,28 +33,6 @@
         margin:0 10px 25px;
     }
 
-    :root {
-        --nav-bar-width:80px;
-    }
-
-    #nav-bar > .container > .big-logo {
-        display:none;
-    }
-
-    #nav-bar > .container > .small-logo {
-        display:block;
-        width:40px;
-        margin:0 20px;
-    }
-
-    #nav-bar > .container > .buttons > div > a > .button-desc {
-        display:none;
-    }
-
-    #nav-bar > .container > .playlist {
-        display:none;
-    }
-
 }
 
 @media screen and (max-width:500px) {
@@ -75,4 +53,39 @@
     #media-player > .music-desc > .desc {
         padding-right:0;
     }
+
+    :root {
+        --nav-bar-width:60px;
+    }
+
+    #nav-bar > .big-logo {
+        display:none;
+    }
+
+    #nav-bar > .small-logo {
+        display:block;
+        width:70px;
+    }
+
+    #nav-bar > .aside-top > * > span {
+        display:none;
+    }
+
+    #nav-bar > .aside-top > .home {
+        border:none;
+    }
+
+    #nav-bar > .aside-middle > * {
+        display:none;
+    }
+
+    #nav-bar > .aside-bottom > * {
+        border:none;
+        justify-content: center;
+    }
+
+    #nav-bar > .aside-bottom > * > p {
+        display:none;
+    }
+
 }
