@@ -18,12 +18,7 @@
 }
 
 /* Da cancellare */
-#nav-bar > * {
-    /* border:1px solid white; */
-    border-radius:7px;
-    background-color: rgba(255,255,255,0.1);
-    margin:0 10px;
-}
+
 /*  */
 
 #nav-bar > *:not(.aside-top) {
@@ -75,6 +70,7 @@
     flex-grow:1;
     margin-top:10px;
     overflow:hidden;
+    min-height:100px;
 }
 
 #nav-bar .aside-middle > h3 {
@@ -125,6 +121,42 @@
 .aside-middle > .playlist-list > li:hover {
     color:white;
 }
+
+.aside-bottom > .download.flex {
+    margin:10px 0;
+    padding-bottom:10px;
+    border-bottom:1px solid #707070;
+    cursor:pointer;
+}
+
+.aside-bottom > .download.flex > p {
+    font-size:13px;
+    color:var(--color-text-grey);
+    
+}
+
+.aside-bottom > .download.flex:hover > p {
+    color:#ADFF2F;
+}
+
+.aside-bottom > .download.flex > img {
+    width:15px;
+    margin-right:10px;
+    filter: invert(48%) sepia(0%) saturate(835%) hue-rotate(227deg) brightness(89%) contrast(87%);
+}
+
+.aside-bottom > .user-profile.flex > p {
+    font-size:14px;
+}
+
+.aside-bottom > .user-profile.flex > img {
+    width:22px;
+    height:22px;
+    background-color:#707070;
+    border-radius:100%;
+    margin-right:10px;
+}
+
 
 /* Media Browser */
 #browser-application > #media-browser {
