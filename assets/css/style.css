@@ -305,7 +305,7 @@
 }
 
 #media-player > .music-desc {
-    width:250px;
+    width:300px;
     height:100%;
     vertical-align:middle;
     align-items:center;
@@ -318,11 +318,12 @@
 }
 
 .music-desc > .current-music {
-    width:45px;
-    height:45px;
-    background-image:url("../img/einaudi.jpeg");
+    width:50px;
+    height:50px;
+    background-image:url("https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png");
     background-size:cover;
     background-position:center;
+    cursor:pointer;
 }
 
 .music-desc > .icons.flex > i {
@@ -367,7 +368,16 @@
     background-color: #5A5A5A;
 }
 
+.music-desc > .desc > h5:hover,
+.music-desc > .desc > p:hover {
+    text-decoration:underline;
+    cursor: pointer;
+}
 
+.music-desc > .icons > i:hover {
+    cursor:pointer;
+    color:white;
+}
 
 .music-player > .bottom.flex > span {
     font-size: 11px;
